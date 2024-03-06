@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+.u-text-left {
+  text-align: left;
+}
+
+/* custom.css */
+.u-text-italic {
+  font-style: italic;
+}
+
+.custom-card {
+  border-top: 4px solid #77216f;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0.5rem 0;
+}
+
+.custom-card > .col-4 {
+  padding: 1rem;
+}
+
+.custom-card .p-card--highlighted {
+  height: 100%;
+}
+
+.custom-card .p-card__content {
+  height: 35%;
+}
+.custom-card .p-card__content h1 {
+  height: 60%;
+}
+
+.u-text-bold {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.u-text-color {
+  color: #0390fc;
+}
+.u-text-color:hover {
+  text-decoration: none;
+}
+
+/* Custom CSS for pop-out effect */
+.p-card--highlighted:hover {
+  transform: scale(1.05); /* Slightly increase the scale of the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance the shadow for a "lifting" effect */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.p-card--highlighted {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.element-class {
+  color: white;
+  background: linear-gradient(to right,#f2740c, #ed9247, #ffa500);
+}
