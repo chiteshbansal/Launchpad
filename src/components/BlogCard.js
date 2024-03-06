@@ -8,10 +8,8 @@ const BlogCard = ({ post }) => {
         <header className="p-card__header ">
           <h5 className="p-muted-heading u-text-left">CLOUD AND SERVER</h5>
           <hr />
-          <div className="aspect-ratio-box">
             
           <img src={post.featured_media} alt="" />
-          </div>
         </header>
         <div className="p-card__content">
           <h1 className="p-heading--4  u-text-color">
