@@ -5,10 +5,13 @@ const BlogCard = ({ post }) => {
   return (
     <div className="col-4 custom-card u-text-left " key={post.id}>
       <div className="p-card--highlighted ">
-        <header className="p-card__header">
+        <header className="p-card__header ">
           <h5 className="p-muted-heading u-text-left">CLOUD AND SERVER</h5>
           <hr />
+          <div className="aspect-ratio-box">
+            
           <img src={post.featured_media} alt="" />
+          </div>
         </header>
         <div className="p-card__content">
           <h1 className="p-heading--4  u-text-color">
